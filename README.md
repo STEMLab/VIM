@@ -16,12 +16,6 @@ VIM has been developed for visually impaired, but it will also help general user
 |Ease Daegu Station|Information Center|RestRoom Near By Number 2 Entrance|[YouTube](https://youtu.be/KjH6fsr74Jc "VIM Demonstration at 동대구역(1)")|
 |Ease Daegu Station|RestRoom Near By Number 2 Entrance|Number 6 Entrance|[YouTube](https://youtu.be/EPm08nGf39k "VIM Demonstration at 동대구역(2)")|
 
-### Download
-
-|version|date|description|
-|:--|:--|:--|
-|[1.0.0](https://github.com/STEMLab/VIM/releases/download/public/VIM_1.0.0.apk "VIM_1.0.0")|2022-1-10||
-|[1.0.0 beta](https://github.com/STEMLab/VIM/releases/download/beta/VIM_1.0.0_beta.apk "VIM_1.0.0_beta")|2021-12-27||
 
 ### Form for expressing indoor space information
 
@@ -94,7 +88,7 @@ Using the [location.json](./app/src/assets/../main/assets/location.json) you can
 └─app
     └─src
         ├─main
-        ├─assets // you can see location.json and indoorgml files
+        ├─assets
         │  └─indoorgml
         ├─java
         │  └─lab
