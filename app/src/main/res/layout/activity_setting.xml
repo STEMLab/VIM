@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/setting_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6F6F6"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+            app:title="@string/setting" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="15dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text_guide_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="@string/guide_message"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/setting_guide_normal_poi"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:checked="true"
+                    android:text="@string/landmark"
+                    android:textSize="22sp" />
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/setting_guide_safety_poi"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:checked="true"
+                    android:text="@string/safety"
+                    android:textSize="22sp" />
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/setting_guide_visually_impaired"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:checked="false"
+                    android:text="@string/visually_impaired"
+                    android:textSize="22sp" />
+                <TextView
+                    android:id="@+id/text_distance_form"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/distance_form"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+                <RadioGroup
+                    android:id="@+id/setting_distance_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp">
+                    <RadioButton
+                        android:id="@+id/setting_distance_feet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/feet"
+                        android:textSize="22sp" />
+                    <RadioButton
+                        android:id="@+id/setting_distance_meter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/meter"
+                        android:textSize="22sp" />
+                </RadioGroup>
+                <TextView
+                    android:id="@+id/text_set_up_path_about_floor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/set_up_path_about_floor"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+                <RadioGroup
+                    android:id="@+id/setting_path_floor"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <RadioButton
+                        android:id="@+id/setting_path_floor_elevator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/elevator"
+                        android:textSize="22sp" />
+
+                    <RadioButton
+                        android:id="@+id/setting_path_floor_escalator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/escalator"
+                        android:textSize="22sp" />
+
+                    <RadioButton
+                        android:id="@+id/setting_path_floor_stair"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stair"
+                        android:textSize="22sp" />
+                </RadioGroup>
+                <TextView
+                    android:id="@+id/text_setting_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/language_setting"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+                <RadioGroup
+                    android:id="@+id/setting_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp">
+                    <RadioButton
+                        android:id="@+id/setting_korean"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ko"
+                        android:textSize="22sp" />
+                    <RadioButton
+                        android:id="@+id/setting_english"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/en"
+                        android:textSize="22sp" />
+
+                </RadioGroup>
+                <TextView
+                    android:id="@+id/text_setting_guide_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/guide_speed_setting"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+                <SeekBar
+                    android:id="@+id/setting_guide_speed"
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:max="10"
+                    android:progress="1" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

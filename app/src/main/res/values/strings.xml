@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">VIM</string>
+    <string name="service_url">http://13.125.45.3:8080/poinsAnalytics_api/</string>
+    <string name="dialog_fire_missiles">dialog_fire_missiles</string>
+    <string name="network_layer">network</string>
+    <string name="fire">fire</string>
+    <string name="start_routing">Start Routing</string>
+    <string name="stop_routing">Stop Routing</string>
+    <string name="way_point_file">way_point.json</string>
+    <string name="destination_file">destination.json</string>
+    <string name="location_file">location.json</string>
+    <string name="departure">departure</string>
+    <string name="select_departure">select departure</string>
+    <string name="information">information</string>
+
+
+    <string name="description_of_route_button">this is for start or stop routing button</string>
+    <string name="description_of_change_mode">you can choose select route or information mode</string>
+    <string name="description_of_debug_mode">this is for developer</string>
+    <string name="debug_mode">debug mode</string>
+
+    <string name="change_mode">change mode</string>
+
+    <string name="pause">pause</string>
+    <string name="recalibrate">reCalibrate</string>
+    <string name="initialize_positioning">catch my position</string>
+
+    <!--   main fragment-->
+    <!--english version-->
+    <string name="current_location">current location</string>
+    <string name="instructions">instructions</string>
+    <string name="start_positioning">start Positioning</string>
+    <string name="stop_positioning">Stop Positioning</string>
+
+    <string name="nearby_poi">nearby P O I</string>
+    <string name="set_up_destination">set up destination</string>
+    <string name="reset_route">reset route</string>
+    <string name="repeat_instruction">repeat instruction</string>
+    <string name="repeat_guide">repeat guide</string>
+    <string name="setting">setting</string>
+    <string name="destination">destination</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <!--korean version-->
+    <string name="kr_instructions">사용법</string>
+    <string name="kr_current_location">현재 위치</string>
+    <string name="kr_start_positioning">측위 시작</string>
+    <string name="kr_stop_positioning">측위 종료</string>
+    <string name="kr_nearby_poi">근처의 P O I</string>
+    <string name="kr_set_up_destination">목적지 설정</string>
+    <string name="kr_reset_route">경로 재설정</string>
+    <string name="kr_repeat_guide">안내 다시 듣기</string>
+    <string name="kr_setting">설정</string>
+    <string name="kr_destination">목적지</string>
+    <string name="kr_start">시작</string>
+    <string name="kr_stop">종료</string>
+    <!--   main fragment-->
+    <string name="landmark">landmark</string>
+    <string name="safety">safety</string>
+    <!--setting fragment-->
+    <!--english version-->
+    <string name="instruction">Instruction</string>
+    <string name="guide_message">Guide Message</string>
+    <string name="normal_poi">landmark</string>
+    <string name="safety_poi">safety</string>
+    <string name="visually_impaired">visually impaired</string>
+    <string name="braille_blocks">braille blocks</string>
+
+    <string name="distance_form">Distance Form</string>
+    <string name="step">step</string>
+    <string name="meter">meter</string>
+    <string name="feet">feet</string>
+
+    <string name="set_up_path_about_floor">Set up path about floor</string>
+    <string name="elevator">elevator</string>
+    <string name="escalator">escalator</string>
+    <string name="stair">stair</string>
+
+    <string name="language_setting">Language</string>
+    <string name="ko">Korean</string>
+    <string name="en">English</string>
+
+    <string name="guide_speed_setting">Voice Guide Speed</string>
+
+    <!--korean version-->
+    <string name="kr_guide_message">안내 음성 설정</string>
+    <string name="kr_normal_poi">일반 P O I</string>
+    <string name="kr_safety_poi">안전 P O I</string>
+    <string name="kr_braille_blocks">유도블록</string>
+    <string name="kr_visually_impaired">시각장애인</string>
+
+    <string name="kr_way_of_expression_distance">거리 형식</string>
+    <!--    <string name="kr_step">Step</string>-->
+    <!--    <string name="kr_meter">Meter</string>-->
+
+    <string name="kr_set_up_path_about_floor">층간 이동 방법</string>
+    <string name="kr_elevator">엘레베이터</string>
+    <string name="kr_escalator">에스컬레이터</string>
+    <string name="kr_stair">계단</string>
+
+    <string name="kr_language_setting">언어 설정</string>
+    <string name="kr_ko">한국어</string>
+    <string name="kr_en">영어</string>
+
+    <string name="kr_guide_speed_setting">음성안내 속도</string>
+    <!--setting fragment-->
+    <!--search fragment-->
+    <string name="search">search</string>
+    <!--korean version-->
+    <string name="kr_search">검색</string>
+    <!--search fragment-->
+
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+    <string name="Z">Z</string>
+    <string name="DIR">DIR</string>
+    <string name="run">run</string>
+    <string name="zero">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="none">none</string>
+</resources>
+

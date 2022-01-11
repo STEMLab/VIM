@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="service_no">
+        <item>168</item> <!-- un -->
+        <item>182</item> <!-- pnu -->
+        <item>209</item> <!-- pnu-yangsan -->
+        <item>207</item> <!-- daegu-station -->
+    </integer-array>
+</resources>

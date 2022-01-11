@@ -1,0 +1,20 @@
+package lab.stem.vim.guideFactory;
+
+public enum FACTORY_ORDER_TYPE {
+    ARRIVAL_MOVING_OBJECT,
+    ARRIVAL_NEAR,
+    ARRIVAL,
+    ELEVATOR,
+    ESCALATOR,
+    STAIR,
+    TURNING,
+    NONE,
+    GO,
+    NEXT_TURNING,
+    NEXT_CLOSE_TURNING,
+    NEXT_PLUS_NEXT_TURNING,
+    POI,
+    SAFETY,
+    LANDMARK,
+    ROUTE_EXPLAIN,
+}

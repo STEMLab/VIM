@@ -1,0 +1,374 @@
+{
+  "service_no": {
+    "168" : {
+      "name": "un.gml",
+      "floors": {
+        "1" : {
+          "states" : {
+            "S666":{
+              "name": {
+                "en": "1F west entrance",
+                "ko": "1층 서쪽 출입구"
+              }
+            },
+            "S681":{
+              "name": {
+                "en": "1F east entrance",
+                "ko": "1층 동쪽 출입구"
+              }
+            },
+            "S674": {
+              "name" : {
+                "en": "1F front of center elevator",
+                "ko": "1층 중앙 엘레베이터 앞"
+              }
+            }
+          }
+        }
+      },
+      "braille_blocks": false
+    },
+    "182" : {
+      "name": "pnu_b313.gml",
+      "floors": {
+        "3" : {
+          "states" : {
+            "S1":{
+              "name": {
+                "en": "3F west stair",
+                "ko": "3층 서쪽 계단"
+              }
+            },
+            "S7":{
+              "name": {
+                "en": "3F front of elevator",
+                "ko": "3층 엘레베이터 앞"
+              }
+            }
+          }
+        },
+        "4" : {
+          "states" : {
+            "S10":{
+              "name": {
+                "en": "4F front of elevator",
+                "ko": "4층 엘레베이터 앞"
+              }
+            },
+            "S12":{
+              "name": {
+                "en": "4F front of Room 422",
+                "ko": "4층 422호 앞"
+              }
+            },
+            "S14":{
+              "name": {
+                "en": "4F Room 422",
+                "ko": "4층 422호"
+              }
+            }
+          }
+        }
+      },
+      "braille_blocks": false
+    },
+    "209": {
+      "name": "pnu_abc.gml",
+      "floors": {
+        "2" : {
+          "states" : {
+            "S52":{
+              "name": {
+                "en": "2F north stair area",
+                "ko": "2층 북쪽 계단 앞"
+              }
+            },
+            "S71":{
+              "name": {
+                "en": "2F north man's restroom",
+                "ko": "2층 북쪽 남자 화장실"
+              }
+            },
+            "S70":{
+              "name": {
+                "en": "2F front of south man's restroom",
+                "ko": "2층 남쪽 남자 화장실"
+              }
+            },
+            "S67": {
+              "name": {
+                "en": "2F west front of elevator",
+                "ko": "정문(2층 서쪽 엘레베이터)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "elevator",
+                "destinationFloor": 1
+              }
+            },
+            "S68": {
+              "name": {
+                "en": "2F front of west stair",
+                "ko": "2층 서쪽 계단 앞"
+              }
+            }
+          }
+        },
+        "3" : {
+          "states" : {
+            "S49":{
+              "name": {
+                "en": "3F north stair area",
+                "ko": "3층 북쪽 계단 앞"
+              }
+            },
+            "S36":{
+              "name": {
+                "en": "3F north man's restroom",
+                "ko": "3층 북쪽 남자 화장실"
+              }
+            },
+            "S83":{
+              "name": {
+                "en": "3F front of south man's restroom",
+                "ko": "3층 남쪽 남자 화장실 앞"
+              }
+            },
+            "S81": {
+              "name": {
+                "en": "3F west front of elevator",
+                "ko": "정문(3층 서쪽 엘레베이터)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "elevator",
+                "destinationFloor": 1
+              }
+            },
+            "S37": {
+              "name": {
+                "en": "3F front of west stair",
+                "ko": "3층 서쪽 계단 앞"
+              }
+            }
+          }
+        },
+        "4" : {
+          "states" : {
+            "S63":{
+              "name": {
+                "en": "4F north stair area",
+                "ko": "4층 북쪽 계단 앞"
+              }
+            },
+            "S41": {
+              "name": {
+                "en": "4F north man's restroom ",
+                "ko": "4층 북쪽 남자 화장실"
+              }
+            },
+            "S86":{
+              "name": {
+                "en": "4F front of south man's restroom",
+                "ko": "4층 남쪽 남자 화장실 앞"
+              }
+            },
+            "S93": {
+              "name": {
+                "en": "4F west front of elevator",
+                "ko": "정문(4층 서쪽 엘레베이터)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "elevator",
+                "destinationFloor": 1
+              }
+            },
+            "S51":{
+              "name": {
+                "en": "4F front of west stair",
+                "ko": "4층 서쪽 계단 앞"
+              }
+            }
+          }
+        }
+      },
+      "braille_blocks": false
+    },
+    "207" : {
+      "name": "east_daegu_station.gml",
+      "floors": {
+        "1" : {
+          "states" : {
+            "S75":{
+              "name": {
+                "en": "Entrance 1",
+                "ko": "1번 출구"
+              }
+            },
+            "S60":{
+              "name": {
+                "en": "Entrance 2",
+                "ko": "2번 출구"
+              }
+            },
+            "S4": {
+              "name": {
+                "en": "Entrance 3",
+                "ko": "3번 출구"
+              }
+            },
+            "S12":{
+              "name": {
+                "en": "Entrance 4",
+                "ko": "4번 출구"
+              }
+            },
+            "S65":{
+              "name": {
+                "en": "Entrance 6",
+                "ko": "6번 출구"
+              }
+            },
+            "S58": {
+              "name": {
+                "en": "Entrance 2 restroom",
+                "ko": "2번 출구 화장실"
+              }
+            },
+            "S10": {
+              "name": {
+                "en": "Entrance 4 restroom",
+                "ko": "4번 출구 화장실"
+              }
+            },
+            "S152": {
+              "name": {
+                "en": "ticket box",
+                "ko": "매표소"
+              }
+            },
+            "S36": {
+              "name": {
+                "en": "stair of 2 station",
+                "ko": "타는곳 영천 경주 포항 태화강 방면(계단)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "stair",
+                "destinationFloor": 1
+              }
+            },
+            "S109": {
+              "name": {
+                "en": "elevator of 2 station",
+                "ko": "타는곳 영천 경주 포항 태화강 방면(엘레베이터)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "elevator",
+                "destinationFloor": 1
+              }
+            },
+            "S39": {
+              "name": {
+                "en": "stair of 6 station",
+                "ko": "타는곳 부산 마산 진주 방면(계단)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "stair",
+                "destinationFloor": 1
+              }
+            },
+            "S110": {
+              "name": {
+                "en": "elevator of 6 station",
+                "ko": "타는곳 부산 마산 진주 방면(엘레베이터)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "elevator",
+                "destinationFloor": 1
+              }
+            },
+            "S43": {
+              "name": {
+                "en": "stair of 7,8 station",
+                "ko": "타는곳 KTX 신경주 부산 울산 마산 진주 포항 방면(계단)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "stair",
+                "destinationFloor": 1
+              }
+            },
+            "S111": {
+              "name": {
+                "en": "elevator of 7,8 station",
+                "ko": "타는곳 KTX 신경주 부산 울산 마산 진주 포항 방면(엘레베이터)"
+              },
+              "spatialCanMoveFloor": {
+                "type": "elevator",
+                "destinationFloor": 1
+              }
+            },
+            "S56": {
+              "name": {
+                "en": "pharmacy",
+                "ko": "약국"
+              },
+              "target": {
+                "layer": "landmark",
+                "id": "Landmark16"
+              }
+            },
+            "S9": {
+              "name": {
+                "en": "Entrance 6 convenience store",
+                "ko": "6번 출구 편의점"
+              },
+              "target": {
+                "layer": "landmark",
+                "id": "Landmark13"
+              }
+            },
+            "S19": {
+              "name": {
+                "en": "Entrance 3 convenience store",
+                "ko": "3번 출구 편의점"
+              },
+              "target": {
+                "layer": "landmark",
+                "id": "Landmark3"
+              }
+            },
+            "S86": {
+              "name": {
+                "en": "station office",
+                "ko": "역무실"
+              },
+              "target": {
+                "layer": "landmark",
+                "id": "Landmark2"
+              }
+            },
+            "S90": {
+              "name": {
+                "en": "lost and found center",
+                "ko": "분실물보관소"
+              },
+              "target": {
+                "layer": "landmark",
+                "id": "Landmark15"
+              }
+            },
+            "S7": {
+              "name": {
+                "en": "guide center",
+                "ko": "안내데스크"
+              },
+              "target": {
+                "layer": "landmark",
+                "id": "Landmark4"
+              }
+            }
+          }
+        }
+      },
+      "braille_blocks": true
+    }
+  }
+}
