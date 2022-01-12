@@ -1,14 +1,14 @@
 # VIM-Android version
  
 ### What is VIM
-VIM(Voice Indoor Maps) Application for Android was made for person who can't see to be able to go to the destination you need to go yourself in indoor space.
+VIM(Voice Indoor Maps) Application for Android has been developed for visually impaired persons to support indoor navigation.
 
-In VIM, there are two versions as below.
+Actually two versions of VIM were developped for
 
-1. For general indoor space, which we well knew.
-2. An indoor which setup block for visually impaired.
+1. indoor space with braille blocks
+2. indoor space without braille blocks
 
-VIM has been developed for visually impaired, but it will also help general users find the destination they want to go in indoor space.
+VIM has been developed for visually impaired, but it will also be useful for non-impaired users in finding indoor routes.
 
 ### Demonstration
 |location|departure|destination|video
